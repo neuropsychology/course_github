@@ -8,7 +8,7 @@ This repository contains the resources to learn about Github b
 - [ ] Try it yourself: Have you made a **pull request** to modify the CBL website?
 
 # Put down your name if you've attended! ✨ 
-1. Dom @DominiqueMakowski
-2. Tam @Tam-Pham
-3. Zen @zen-juen
+1. [@DominiqueMakowski](https://github.com/DominiqueMakowski)
+2. [@Tam-Pham](https://github.com/Tam-Pham)
+3. [@zen-juen](https://github.com/zen-juen)
 4. ...
