@@ -10,22 +10,50 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Before the workshop
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+- Create Github account
+- Star + Watch this course_github repository and clinicalbrainlab.github.io repository
+- Read Dom's blogpost about why psychologist should use Github
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+## Pre-requisite 
 
-## Including Plots
+- Have you created your Github account?
 
-You can also embed plots, for example:
+## what is Github?
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+- Open-source environment 
+- Abit about history
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+- Motivation:
+  - develop software or some useful functions for yourself, would like to share (e.g. email automation)
+  - experimenta paradigms (e.g cocon, compex span)
+  - follow updates of functions (in R or Python, or Matlab ^^) that are developed and maintained on Github, raise issues (e.g tidyverse, easystas, numpy, pandas...)
+  - Freely available data (e.g. JHU covid-19)
+  
+## Exercise 1: Create a repository
+
+- Demo
+- Initialize with readme.md
+- Show some markdown stuffs (title, subtitle, bullet, bold, italic, link)
+- Show commit history
+
+## Exercise 2: Fork repository
+
+- Fork the website repository (explain a little bit about fork)
+- update profile (show step-by-step)
+
+## Using Github
+
+  - share your work (create a repo)
+  - follow updates of functions (watch NeuroKit)
+  - raise issue (show isuee)
+  - download available data (e.g. JHU covid-19)
+
+<!-- note to self --> how to troubleshoot during the session?
+
+## Next session
+
+- more advanced tools
+- more details about Github
