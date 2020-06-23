@@ -17,20 +17,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Before we start{.build}
 
-- Have you created your Github account?
+- Have you created your GitHub account?
 <!--  everyone signs in, look for clinicalbrainlab gh organization -->
-- Are you now a member of the Github Clinicabranlab organization?
+- Are you now a member of the GitHub ClinicalBrainLab organization?
 <!-- Checking the list of members would be a good way to see if everyone is there -->
+<div class="centered">
+![](img/organization.png){width=65%} </div>
+
 
 ## Outline
 
-- Introduction to Github
+- Introduction to GitHub
 - Exercise 1: Create a repository
 - Exercise 2: Fork a repository 
-- Using Github henceforward
+- Using GitHub henceforward
 - Next session?
 
-## What is Github?
+## What is GitHub?
 
 - Originally a repository of open-source for computer code
    <font size="3">*Repository is like a shared Dropbox folder, only more powerful*</font>
@@ -40,7 +43,7 @@ knitr::opts_chunk$set(echo = TRUE)
 </div>
 
 
-## What is (so great about) Github? 
+## What is (so great about) GitHub? 
 
 - Open collaboration and transparency 
 - *Great* version-control features
@@ -48,25 +51,27 @@ knitr::opts_chunk$set(echo = TRUE)
 ![](img/workflow-github.png){width=65%} </div>
 
 
-## What is Github?
-### How is it relevant to Psychology researchers?
+## How is it relevant to Psychology researchers?
 
-- *As developers*
-  - Share your hardwork with others
-    - Tasks: CC, CS, RS...
-    - Useful tools: automailer, convert-Eprime, R-prime 
-    - List of resources: awesomeR, awesomePython
-    - Open-source data: JHU Covid-19 data
-- *As users*
-  - Benefit from the hardwork of others
-    - [fmriprep] (https://github.com/poldracklab/fmriprep)
-    - [NeuroKit] (https://github.com/neuropsychology/NeuroKit)
-  - Follow updates of functions (R, Python)
-    - [tidyverse] (https://github.com/tidyverse)
-    - [easystats] (https://github.com/easystats)
-    - [spm] (https://github.com/spm)
-  - Raise issues when encountered
-    - https://github.com/tidyverse/ggplot2/issues
+### **As developers**
+- Share your hardwork with others!
+
+- **Tasks**: [CogntiveControl](https://github.com/neuropsychology/CognitiveControl), [ComplexSpan](https://github.com/neuropsychology/ComplexSpan), [RestingState](https://github.com/neuropsychology/RestingState)
+
+- **Useful Tools**: [Email automation](https://github.com/colinquirk/autoemailer), E-prime converters in [Python](https://github.com/tsalo/convert-eprime) and [R](https://github.com/tjmahr/rprime)
+
+- **List of resources**: Everything under the sun: [awesome](https://github.com/sindresorhus/awesome), R: [awesomeR](https://github.com/ktaranov/AwesomeR), Python: [awesomePython](https://github.com/vinta/awesome-python), Open-source data: JHU COVID-19 data
+
+## How is it relevant to Psychology researchers?
+
+### **As Users**
+- Benefit from the hardwork of others!
+
+- **Preprocessing pipelines**: [fmriprep](https://github.com/poldracklab/fmriprep), [NeuroKit](https://github.com/neuropsychology/NeuroKit)
+
+- **Follow updates of functions** (R, Python): [tidyverse](https://github.com/tidyverse), [easystats](https://github.com/easystats), [spm](https://github.com/spm)
+
+- **Raise issues**: https://github.com/tidyverse/ggplot2/issues
   
   
   
@@ -82,11 +87,23 @@ knitr::opts_chunk$set(echo = TRUE)
 - Fork the website repository
 - Update profile (step-by-step)
 
-## Using Github
-### Summarize the functions
+## Using GitHub: Summary of Features
+
+- **Issues**: Raise encountered problems with software developers, look for answers to issues that may have already been brought up
+<div class="centered">
+![](img/issues.png){width=65%} </div>
+
+- **Pull Requests**: propose and collaborate on changes to a repository
+<div class="centered">
+![](img/pullrequests.png){width=65%} </div>
+
+- **Commits**: Track changes
+<div class="centered">
+![](img/commits.png){width=65%} </div>
+
 
 ## Next session
 
-- Other Github Features
+- Other GitHub Features
 - Common practice of using Github
 - ...what else?
