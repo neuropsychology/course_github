@@ -3,7 +3,7 @@ This repository contains the resources to learn about Github b
 
 # Check points
 - [ ] Have you created a GitHub account yet?
-- [ ] Have you **watched** this repository? (Get notified of updates!) 
+- [ ] Have you **watched** this repository as well as the  [CBL website repository](https://github.com/ClinicalBrainLab)? (Get notified of updates!) 
 - [ ] Have you created your own repository?
 - [ ] Try it yourself: Have you made a **pull request** to modify the [CBL website](https://github.com/ClinicalBrainLab)?
 
