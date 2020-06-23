@@ -1,5 +1,5 @@
 # course_github
-This repository contains the resources to learn about Github b    
+This repository contains the resources to learn about GitHub
 
 # Check points
 - [ ] Have you created a GitHub account yet?
@@ -12,3 +12,6 @@ This repository contains the resources to learn about Github b
 2. [@Tam-Pham](https://github.com/Tam-Pham)
 3. [@zen-juen](https://github.com/zen-juen)
 4. ...
+
+If you've missed the presentation, you can run it by downloading the [Rmd file](https://github.com/neuropsychology/course_github/blob/master/101_introduction/CBL_Github_Introduction.Rmd), open it in *RStudio* and Knit!
+
