@@ -2,58 +2,91 @@
 title: "Introduction to Github"
 output:
   ioslides_presentation:
-    widescreen: false
+    logo: img/octocat.png
     incremental: true
+    widescreen: false
+self_contained: true
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Before the workshop
 
-- Create Github account
-- Star + Watch this course_github repository and clinicalbrainlab.github.io repository
-- Read Dom's blogpost about why psychologist should use Github
-
-
-## Pre-requisite 
+## Before we start{.build}
 
 - Have you created your Github account?
+<!--  everyone signs in, look for clinicalbrainlab gh organization -->
+- Are you now a member of the Github Clinicabranlab organization?
+<!-- Checking the list of members would be a good way to see if everyone is there -->
 
-## what is Github?
+## Outline
 
-- Open-source environment 
-- Abit about history
+- Introduction to Github
+- Exercise 1: Create a repository
+- Exercise 2: Fork a repository 
+- Using Github henceforward
+- Next session?
 
-- Motivation:
-  - develop software or some useful functions for yourself, would like to share (e.g. email automation)
-  - experimenta paradigms (e.g cocon, compex span)
-  - follow updates of functions (in R or Python, or Matlab ^^) that are developed and maintained on Github, raise issues (e.g tidyverse, easystas, numpy, pandas...)
-  - Freely available data (e.g. JHU covid-19)
+## What is Github?
+
+- Originally a repository of open-source for computer code
+   <font size="3">*Repository is like a shared Dropbox folder, only more powerful*</font>
+- Now, Github is the largest open-source community
+<div class="centered">
+![](img/nature-stats.png){width=55%}
+</div>
+
+
+## What is (so great about) Github? 
+
+- Open collaboration and transparency 
+- *Great* version-control features
+<div class="centered">
+![](img/workflow-github.png){width=65%} </div>
+
+
+## What is Github?
+### How is it relevant to Psychology researchers?
+
+- *As developers*
+  - Share your hardwork with others
+    - Tasks: CC, CS, RS...
+    - Useful tools: automailer, convert-Eprime, R-prime 
+    - List of resources: awesomeR, awesomePython
+    - Open-source data: JHU Covid-19 data
+- *As users*
+  - Benefit from the hardwork of others
+    - [fmriprep] (https://github.com/poldracklab/fmriprep)
+    - [NeuroKit] (https://github.com/neuropsychology/NeuroKit)
+  - Follow updates of functions (R, Python)
+    - [tidyverse] (https://github.com/tidyverse)
+    - [easystats] (https://github.com/easystats)
+    - [spm] (https://github.com/spm)
+  - Raise issues when encountered
+    - https://github.com/tidyverse/ggplot2/issues
+  
+  
   
 ## Exercise 1: Create a repository
 
-- Demo
 - Initialize with readme.md
-- Show some markdown stuffs (title, subtitle, bullet, bold, italic, link)
+- Make multiple commits
+- Introduction to markdown stuffs (title, subtitle, bullet, bold, italic, link)
 - Show commit history
 
 ## Exercise 2: Fork repository
 
-- Fork the website repository (explain a little bit about fork)
-- update profile (show step-by-step)
+- Fork the website repository
+- Update profile (step-by-step)
 
 ## Using Github
-
-  - share your work (create a repo)
-  - follow updates of functions (watch NeuroKit)
-  - raise issue (show isuee)
-  - download available data (e.g. JHU covid-19)
-
-<!-- note to self --> how to troubleshoot during the session?
+### Summarize the functions
 
 ## Next session
 
-- more advanced tools
-- more details about Github
+- Other Github Features
+- Common practice of using Github
+- ...what else?
