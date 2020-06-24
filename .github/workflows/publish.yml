@@ -15,24 +15,25 @@ jobs:
 
       - name: Setup R
         uses: r-lib/actions/setup-r@master
-       
+
       - name: Setup Pandoc
         uses: r-lib/actions/setup-pandoc@v1
 
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown"))'
- 
+
       - name: Render presentation
-        run: | 
+        run: |
             cd $GITHUB_WORKSPACE/101_introduction/
             Rscript -e 'rmarkdown::render("CBL_Github_Introduction.Rmd", "html_document")'
- 
+
       - name: Commit html
         uses: EndBug/add-and-commit@v4
         with:
             message: "Update html slide"
             ref: 'gh-pages'
             add: "*.html"
+            cwd: "./101_introduction/"
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
+
