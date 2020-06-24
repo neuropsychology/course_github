@@ -9,6 +9,8 @@ name: 🚀 Knit and Publish
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -17,7 +19,7 @@ jobs:
         uses: r-lib/actions/setup-r@master
 
       - name: Setup Pandoc
-        uses: r-lib/actions/setup-pandoc@v1
+        uses: r-lib/actions/setup-pandoc@master
 
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown"))'
@@ -27,18 +29,11 @@ jobs:
             cd $GITHUB_WORKSPACE/101_introduction/
             Rscript -e 'rmarkdown::render("CBL_Github_Introduction.Rmd", "html_document")'
 
-#      - name: Commit html
-#        run: |
-#          git commit CBL_Github_Introduction.Rmd -m 'Build html document' || echo "No changes to commit"
-#          git push origin || echo "No changes to commit"
-
       - name: Commit html
         uses: EndBug/add-and-commit@v4
         with:
             message: "Update html slide"
             ref: 'gh-pages'
             add: "*.html"
-            build_html: true
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
