@@ -16,17 +16,16 @@ knitr::opts_chunk$set(echo = TRUE)
 ---
 ## Before we start
 
---
 
-- Have you created your GitHub account?
+- Have you created your GitHub account? (Don't forget to add a profile picture and fill up your information!)
+.center[![:scale 90%](img/dom-profile.PNG)]
 
 
---
+---
+
+## Before we start
+
 - Are you now a member of the GitHub ClinicalBrainLab organization?
-
-
---
-
 .center[![:scale 90%](img/organization.png)]
 
 --
