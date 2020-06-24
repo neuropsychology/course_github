@@ -1,4 +1,5 @@
-# course_github
+# Introduction to GitHub for Psychologists and Neuroscientists
+
 This repository contains the resources to learn about GitHub
 
 # Check points
