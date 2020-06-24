@@ -61,6 +61,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## How is it relevant to Psychology researchers?
 
 ### **As developers**
+
 - Share your hardwork with others!
 
 - **Tasks**: e.g., [ComplexSpan](https://github.com/neuropsychology/ComplexSpan)
@@ -72,6 +73,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## How is it relevant to Psychology researchers?
 
 ### **As Users**
+
 - Benefit from the hardwork of others!
 
 - **Preprocessing pipelines**: [fmriprep](https://github.com/poldracklab/fmriprep), [NeuroKit](https://github.com/neuropsychology/NeuroKit)
@@ -80,11 +82,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - **Raise issues**: https://github.com/tidyverse/ggplot2/issues
   
-  
-  
+- **Learn programming**: Contributing to software is the best way of learning a language. 
+
 ## Exercise 1: Create a repository
 
-- Initialize with readme.md
+- Initialize with `README.md` (this is the core of each repo, and usually contains all useful information about it)
 - Make multiple commits
 - Introduction to markdown stuffs (title, subtitle, bullet, bold, italic, link)
 - Show commit history
