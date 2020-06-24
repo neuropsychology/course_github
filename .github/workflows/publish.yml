@@ -28,11 +28,16 @@ jobs:
             Rscript -e 'rmarkdown::render("CBL_Github_Introduction.Rmd", "html_document")'
 
       - name: Commit html
-        uses: EndBug/add-and-commit@v4
-        with:
-            message: "Update html slide"
-            ref: 'gh-pages'
-            add: "*.html"
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git commit CBL_Github_Introduction.Rmd -m 'Build html document' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+
+#      - name: Commit html
+#        uses: EndBug/add-and-commit@v4
+#        with:
+#            message: "Update html slide"
+#            ref: 'gh-pages'
+#            add: "*.html"
+#        env:
+#            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
