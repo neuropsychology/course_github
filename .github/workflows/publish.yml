@@ -20,10 +20,10 @@ jobs:
         uses: r-lib/actions/setup-pandoc@v1
 
       - name: Install rmarkdown
-        run: Rscript -e "install.packages(c("rmarkdown"))"
+        run: Rscript -e 'install.packages(c("rmarkdown"))'
  
       - name: Render presentation
-        run: Rscript -e "rmarkdown::render("101_introduction/CBL_Github_Introduction.Rmd", "html_document")"
+        run: Rscript -e 'rmarkdown::render("101_introduction/CBL_Github_Introduction.Rmd", "html_document")'
  
       - name: Commit html
         uses: EndBug/add-and-commit@v4
