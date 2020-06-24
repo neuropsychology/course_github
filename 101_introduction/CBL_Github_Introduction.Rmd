@@ -1,11 +1,10 @@
 ---
 title: "Introduction to Github"
 output:
-  ioslides_presentation:
-    logo: img/octocat.png
-    incremental: true
-    widescreen: false
-    self_contained: true
+  xaringan::moon_reader:
+    css: [robot, rladies-fonts]
+    nature:
+      beforeInit: "macro.js"
 editor_options: 
   chunk_output_type: console
 ---
@@ -14,105 +13,158 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+---
+## Before we start
 
-## Before we start{.build}
+--
 
 - Have you created your GitHub account?
-<!--  everyone signs in, look for clinicalbrainlab gh organization -->
+
+
+--
 - Are you now a member of the GitHub ClinicalBrainLab organization?
-<!-- Checking the list of members would be a good way to see if everyone is there -->
-<div class="centered">
-![](img/organization.png){width=65%} </div>
 
 
-## Outline
+--
 
-- Introduction to GitHub
-- Exercise 1: Create a repository
-- Exercise 2: Fork a repository 
-- Using GitHub henceforward
-- Next session?
+.center[![:scale 90%](img/organization.png)]
 
+--
+???
+everyone signs in, look for clinicalbrainlab gh organization
+Checking the list of members would be a good way to see if everyone is there
+
+---
 ## What is GitHub?
 
-- Originally, a system and space of open-source computer code
-- Now, GitHub has become the largest open-source community extending far beyond programming
-- It is structures in **repositories** (*repo*, for short), which is like a shared Dropbox folder, only more powerful.
-<div class="centered">
-![](img/nature-stats.png){width=55%}
-</div>
+--
+- Originally: a system and space of open-source computer code
+
+--
+
+- Now : the largest open-source community extending far beyond programming
 
 
+--
+
+.center[![:scale 65%](img/nature-stats.png)]
+
+---
 ## What is (so great about) GitHub? 
 
-- Open-access repos
+--
+
+### Open-access repos
   - Open **collaboration** and transparency
+  
   - Great for sharing material, tools, data
+  
   - Great for discussing ideas, reporting bugs, making suggestions...
-  
-- Private repos
+
+--
+
+### Private repos
   - Great for **version-control** 
-  - Integration with a lot of tools (Overleaf, OSF, etc.)
   
-<div class="centered">
-![](img/workflow-github.png){width=60%} </div>
+  - Integration with a lot of tools (Overleaf, OSF, etc.)
 
+---
+## What is (so great about) GitHub? 
 
+.center[![:scale 90%](img/workflow-github.png)]
+
+---
 ## How is it relevant to Psychology researchers?
 
+--
 ### **As developers**
+
+--
 
 - Share your hardwork with others!
 
+--
+
 - **Tasks**: e.g., [ComplexSpan](https://github.com/neuropsychology/ComplexSpan)
+
+--
 
 - **Useful Tools**: [Email automation](https://github.com/colinquirk/autoemailer), E-prime converters in [Python](https://github.com/tsalo/convert-eprime) and [R](https://github.com/tjmahr/rprime)
 
+--
+
 - **List of resources**: Everything under the sun: [awesome](https://github.com/sindresorhus/awesome), R: [awesomeR](https://github.com/ktaranov/AwesomeR), Python: [awesomePython](https://github.com/vinta/awesome-python), Open-source data: JHU COVID-19 data
 
+---
 ## How is it relevant to Psychology researchers?
 
+--
 ### **As Users**
+
+--
 
 - Benefit from the hardwork of others!
 
+--
+
 - **Preprocessing pipelines**: [fmriprep](https://github.com/poldracklab/fmriprep), [NeuroKit](https://github.com/neuropsychology/NeuroKit)
+
+--
 
 - **Follow updates of functions** (R, Python): [tidyverse](https://github.com/tidyverse), [easystats](https://github.com/easystats), [spm](https://github.com/spm)
 
+--
+
 - **Raise issues**: https://github.com/tidyverse/ggplot2/issues
-  
+
+-- 
+
 - **Learn programming**: Contributing to software is the best way of learning a language. 
 
+---
 ## Exercise 1: Create a repository
 
 - Initialize with `README.md` (this is the core of each repo, and usually contains all useful information about it)
+
 - Make multiple commits
+
 - Introduction to **markdown** (title, subtitle, bullet, bold, italic, link)
+
 - Show commit history
 
+---
 ## Exercise 2: Fork repository
 
 - Fork the website repository
+
 - Update profile (step-by-step)
 
+---
 ## Using GitHub: Summary of Features
 
+--
+
 - **Issues**: Raise encountered problems with software developers, look for answers to issues that may have already been brought up
-<div class="centered">
-![](img/issues.png){width=65%} </div>
+
+![:scale 65%](img/issues.png)
+
+--
 
 - **Pull Requests**: propose and collaborate on changes to a repository
-<div class="centered">
-![](img/pullrequests.png){width=65%} </div>
+
+![:scale 65%](img/pullrequests.png)
+
+--
 
 - **Commits**: Track changes
-<div class="centered">
-![](img/commits.png){width=65%} </div>
 
+![:scale 65%](img/commits.png)
 
+---
 ## Next session
 
 - Other GitHub Features
-- Common practice of using Github
+
+- Common practices of using Github
+
 - ...what else?
