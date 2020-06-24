@@ -5,7 +5,7 @@ output:
     logo: img/octocat.png
     incremental: true
     widescreen: false
-self_contained: true
+    self_contained: true
 editor_options: 
   chunk_output_type: console
 ---
