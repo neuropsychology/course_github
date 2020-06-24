@@ -33,7 +33,6 @@ jobs:
             message: "Update html slide"
             ref: 'gh-pages'
             add: "*.html"
-            cwd: "./101_introduction/"
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

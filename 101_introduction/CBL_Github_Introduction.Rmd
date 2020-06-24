@@ -71,7 +71,7 @@ Checking the list of members would be a good way to see if everyone is there
 ---
 ## What is (so great about) GitHub? 
 
-.center[![:scale 90%](img/workflow-github.png)]
+.center[![:scale 90%](img/workflow-gitHub.png)]
 
 ---
 ## How is it relevant to Psychology researchers?
