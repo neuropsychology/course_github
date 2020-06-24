@@ -88,7 +88,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Initialize with `README.md` (this is the core of each repo, and usually contains all useful information about it)
 - Make multiple commits
-- Introduction to markdown stuffs (title, subtitle, bullet, bold, italic, link)
+- Introduction to **markdown** (title, subtitle, bullet, bold, italic, link)
 - Show commit history
 
 ## Exercise 2: Fork repository
