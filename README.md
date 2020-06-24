@@ -1,6 +1,8 @@
 # Introduction to GitHub for Psychologists and Neuroscientists
 
-This repository contains the resources to learn about GitHub
+This repository contains the resources to learn about GitHub.
+
+👉 https://neuropsychology.github.io/course_github/ 👈
 
 # Check points
 - [ ] Have you created a GitHub account yet?
