@@ -35,9 +35,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## What is GitHub?
 
-- Originally a repository of open-source for computer code
-   <font size="3">*Repository is like a shared Dropbox folder, only more powerful*</font>
-- Now, Github is the largest open-source community
+- Originally, a system and space of open-source computer code
+- Now, GitHub has become the largest open-source community extending far beyond programming
+- It is structures in **repositories** (*repo*, for short), which is like a shared Dropbox folder, only more powerful.
 <div class="centered">
 ![](img/nature-stats.png){width=55%}
 </div>
@@ -45,10 +45,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## What is (so great about) GitHub? 
 
-- Open collaboration and transparency 
-- *Great* version-control features
+- Open-access repos
+  - Open **collaboration** and transparency
+  - Great for sharing material, tools, data
+  - Great for discussing ideas, reporting bugs, making suggestions...
+  
+- Private repos
+  - Great for **version-control** 
+  - Integration with a lot of tools (Overleaf, OSF, etc.)
+  
 <div class="centered">
-![](img/workflow-github.png){width=65%} </div>
+![](img/workflow-github.png){width=60%} </div>
 
 
 ## How is it relevant to Psychology researchers?
@@ -56,7 +63,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### **As developers**
 - Share your hardwork with others!
 
-- **Tasks**: [CogntiveControl](https://github.com/neuropsychology/CognitiveControl), [ComplexSpan](https://github.com/neuropsychology/ComplexSpan), [RestingState](https://github.com/neuropsychology/RestingState)
+- **Tasks**: e.g., [ComplexSpan](https://github.com/neuropsychology/ComplexSpan)
 
 - **Useful Tools**: [Email automation](https://github.com/colinquirk/autoemailer), E-prime converters in [Python](https://github.com/tsalo/convert-eprime) and [R](https://github.com/tjmahr/rprime)
 
