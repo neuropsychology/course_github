@@ -23,7 +23,9 @@ jobs:
         run: Rscript -e 'install.packages(c("rmarkdown"))'
  
       - name: Render presentation
-        run: Rscript -e 'rmarkdown::render("101_introduction/CBL_Github_Introduction.Rmd", "html_document")'
+        run: | 
+            cd $GITHUB_WORKSPACE/101_introduction/
+            Rscript -e 'rmarkdown::render("CBL_Github_Introduction.Rmd", "html_document")'
  
       - name: Commit html
         uses: EndBug/add-and-commit@v4
