@@ -2,7 +2,7 @@
 
 This repository contains the resources to learn about GitHub.
 
-👉 https://neuropsychology.github.io/course_github/ 👈
+👉 [**Click here to see the slides**](https://neuropsychology.github.io/course_github/) 👈
 
 # Check points
 - [ ] Have you created a GitHub account yet?
