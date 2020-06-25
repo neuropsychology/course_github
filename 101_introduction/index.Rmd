@@ -88,7 +88,7 @@ Checking the list of members would be a good way to see if everyone is there
 
 --
 
-- **List of resources**: Everything under the sun: [awesome](https://github.com/sindresorhus/awesome), R: [awesomeR](https://github.com/ktaranov/AwesomeR), Python: [awesomePython](https://github.com/vinta/awesome-python), Open-source data: JHU COVID-19 data
+- **List of resources**: Everything under the sun: [awesome](https://github.com/sindresorhus/awesome), R: [awesomeR](https://github.com/ktaranov/AwesomeR), Python: [awesomePython](https://github.com/vinta/awesome-python), Open-source data: JHU COVID-19 data, [OpenMorph](https://github.com/cMadan/openMorph)
 
 ---
 ## How is it relevant to Psychology researchers?
