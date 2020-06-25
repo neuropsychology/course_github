@@ -67,10 +67,6 @@ Checking the list of members would be a good way to see if everyone is there
   
   - Integration with a lot of tools (Overleaf, OSF, etc.)
 
----
-## What is (so great about) GitHub? 
-
-.center[![:scale 90%](img/workflow-gitHub.png)]
 
 ---
 ## How is it relevant to Psychology researchers?
@@ -106,17 +102,17 @@ Checking the list of members would be a good way to see if everyone is there
 
 --
 
-- **Preprocessing pipelines**: [fmriprep](https://github.com/poldracklab/fmriprep), [NeuroKit](https://github.com/neuropsychology/NeuroKit)
+- **Preprocessing pipelines**: [fmriprep](https://github.com/poldracklab/fmriprep), [MNE](https://github.com/mne-tools/mne-python)
+
+--
+
+- **Ask questions and report issues**: https://github.com/neuropsychology/NeuroKit/
 
 --
 
 - **Follow updates of functions** (R, Python): [tidyverse](https://github.com/tidyverse), [easystats](https://github.com/easystats), [spm](https://github.com/spm)
 
 --
-
-- **Raise issues**: https://github.com/tidyverse/ggplot2/issues
-
--- 
 
 - **Learn programming**: Contributing to software is the best way of learning a language. 
 
@@ -149,13 +145,13 @@ Checking the list of members would be a good way to see if everyone is there
 
 --
 
-- **Pull Requests**: propose and collaborate on changes to a repository
+- **Contribute**: propose and collaborate on changes to a repository
 
 ![:scale 65%](img/pullrequests.png)
 
 --
 
-- **Commits**: Track changes
+- **History**: Track changes
 
 ![:scale 65%](img/commits.png)
 
