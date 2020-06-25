@@ -27,7 +27,7 @@ jobs:
       - name: Render presentation
         run: |
             cd $GITHUB_WORKSPACE/101_introduction/
-            Rscript -e 'rmarkdown::render("CBL_Github_Introduction.Rmd", "html_document")'
+            Rscript -e 'rmarkdown::render("index.Rmd", "html_document")'
 
       - name: Commit html
         uses: EndBug/add-and-commit@v4
