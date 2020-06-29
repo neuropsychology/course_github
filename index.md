@@ -1,0 +1,165 @@
+---
+title: "Introduction to Github"
+output:
+  xaringan::moon_reader:
+    css: [robot, rladies-fonts]
+    nature:
+      beforeInit: "macro.js"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+## Before we start
+
+
+- Have you created your GitHub account? (Don't forget to add a profile picture and fill up your information!)
+.center[![:scale 90%](img/dom-profile.PNG)]
+
+
+---
+
+## Before we start
+
+- Are you now a member of the GitHub ClinicalBrainLab organization?
+.center[![:scale 90%](img/organization.PNG)]
+
+--
+???
+everyone signs in, look for clinicalbrainlab gh organization
+Checking the list of members would be a good way to see if everyone is there
+
+---
+## What is GitHub?
+
+--
+- Originally: a system and space of open-source computer code
+
+--
+
+- Now : the largest open-source community extending far beyond programming
+
+
+--
+
+.center[![:scale 65%](img/nature-stats.png)]
+
+---
+## What is (so great about) GitHub? 
+
+--
+
+### Open-access repos
+  - Open **collaboration** and transparency
+  
+  - Great for sharing material, tools, data
+  
+  - Great for discussing ideas, reporting bugs, making suggestions...
+
+--
+
+### Private repos
+  - Great for **version-control** 
+  
+  - Integration with a lot of tools (Overleaf, OSF, etc.)
+
+
+---
+## How is it relevant to Psychology researchers?
+
+--
+### **As developers**
+
+--
+
+- Share your hardwork with others!
+
+--
+
+- **Tasks**: e.g., [ComplexSpan](https://github.com/neuropsychology/ComplexSpan)
+
+--
+
+- **Useful Tools**: [Email automation](https://github.com/colinquirk/autoemailer), E-prime converters in [Python](https://github.com/tsalo/convert-eprime) and [R](https://github.com/tjmahr/rprime)
+
+--
+
+- **List of resources**: Everything under the sun: [awesome](https://github.com/sindresorhus/awesome), R: [awesomeR](https://github.com/ktaranov/AwesomeR), Python: [awesomePython](https://github.com/vinta/awesome-python), Open-source data: JHU COVID-19 data, [OpenMorph](https://github.com/cMadan/openMorph)
+
+---
+## How is it relevant to Psychology researchers?
+
+--
+### **As Users**
+
+--
+
+- Benefit from the hardwork of others!
+
+--
+
+- **Preprocessing pipelines**: [fmriprep](https://github.com/poldracklab/fmriprep), [MNE](https://github.com/mne-tools/mne-python)
+
+--
+
+- **Ask questions and report issues**: https://github.com/neuropsychology/NeuroKit/
+
+--
+
+- **Follow updates of functions** (R, Python): [tidyverse](https://github.com/tidyverse), [easystats](https://github.com/easystats), [spm](https://github.com/spm)
+
+--
+
+- **Learn programming**: Contributing to software is the best way of learning a language. 
+
+---
+## Exercise 1: Create a repository
+
+- Initialize with `README.md` (this is the core of each repo, and usually contains all useful information about it)
+
+- Make multiple commits
+
+- Introduction to **markdown** (title, subtitle, bullet, bold, italic, link)
+
+- Show commit history
+
+---
+## Exercise 2: Fork repository
+
+- Fork the website repository
+
+- Update profile (step-by-step)
+
+---
+## Using GitHub: Summary of Features
+
+--
+
+- **Issues**: Raise encountered problems with software developers, look for answers to issues that may have already been brought up
+
+![:scale 65%](img/issues.png)
+
+--
+
+- **Contribute**: propose and collaborate on changes to a repository
+
+![:scale 65%](img/pullrequests.png)
+
+--
+
+- **History**: Track changes
+
+![:scale 65%](img/commits.png)
+
+---
+## Next session
+
+- Other GitHub Features
+
+- Common practices of using Github
+
+- ...what else?
